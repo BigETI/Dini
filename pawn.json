@@ -1,0 +1,19 @@
+{
+	"user": "BigETI",
+	"repo": "Dini",
+	"entry": "test\\dini.dtest.pwn",
+	"output": "test\\dini.dtest.amx",
+    "include_path": "include",
+	"dependencies": [
+		"sampctl/pawn-stdlib"
+	],
+	"dev_dependencies": [
+		"BigETI/DTest"
+	],
+    "builds": [
+        {
+            "name": "test",
+            "includes": ["./include"]
+        }
+    ]
+}
